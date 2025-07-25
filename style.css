@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  color: rgb(154, 33, 77);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 300px;
+}
+
+button {
+  background-color: #00c6ff;
+  color: rgb(61, 6, 6);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0072ff;
+}
+
